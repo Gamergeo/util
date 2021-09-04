@@ -86,6 +86,7 @@
                 				<merger>
                   					<target>target/META-INF/resources/webjars/plugin/util/plugin.js</target>
                   					<sources>
+                    					<source>src/main/resources/js/element/closestChildren.js</source>
                     					<source>src/main/resources/js/element/percentageWidth.js</source>
                     					<source>src/main/resources/js/element/textOrVal.js</source>
                     					<source>src/main/resources/js/element/unbindClick.js</source>

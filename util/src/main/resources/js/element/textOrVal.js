@@ -1,11 +1,20 @@
 /**
  * Return text or val depending of the element
  */
-jQuery.fn.textOrVal = function(a) {
+jQuery.fn.textOrVal = function(val) {
 
-	if (element.is("input") || element.is("select")) {
-		return $(this).val(a);
+	if ($(this).is("input") || $(this).is("select")) {
+		
+		if ($.isEmptyObject(val)) {
+			return $(this).val();
+		}
+		
+		return $(this).val(val);
 	}
 
-	return $(this).text(a);
+	if ($.isEmptyObject(val)) {
+		return $(this).text();
+	}
+	
+	return $(this).text(val);
 };
