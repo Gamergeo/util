@@ -4,13 +4,12 @@
 $.mergeFunction = function(functionStart, functionEnd) {
 	
 	return () => {
-		if (!Util.isUndefined(functionStart)) {
+		if (!$.isUndefined(functionStart)) {
 			functionStart.call();
 		} 
 		
-		if (!Util.isUndefined(functionEnd)) {
+		if (!$.isUndefined(functionEnd)) {
 			functionEnd.call();
 		}
-		
 	}
 }
