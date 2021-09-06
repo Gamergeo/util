@@ -89,6 +89,7 @@
                     					<source>src/main/resources/js/element/closestChildren.js</source>
                     					<source>src/main/resources/js/element/percentageWidth.js</source>
                     					<source>src/main/resources/js/element/textOrVal.js</source>
+                    					<source>src/main/resources/js/element/parseVal.js</source>
                     					<source>src/main/resources/js/element/unbindClick.js</source>
                     					<source>src/main/resources/js/global/boolean.js</source>
                     					<source>src/main/resources/js/global/mergeFunction.js</source>
