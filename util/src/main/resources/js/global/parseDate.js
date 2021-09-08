@@ -3,6 +3,10 @@
  */
 $.parseDate = function(stringDate) {
 	
+	if (!stringDate) {
+		return null;
+	}
+	
 	let parts = stringDate.match(/(\d+)/g);
 	
 	if (parts[3]) {
